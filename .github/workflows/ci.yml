@@ -32,7 +32,7 @@ jobs:
       - if: runner.os != 'Windows'
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "4.0.5"
+          ruby-version: "4.0.6"
       # Pin the oracle to minitest 5.x: the failure messages, mu_pp, and run-result
       # semantics this library reproduces byte-for-byte are the 5.x ones.
       - if: runner.os != 'Windows'
